@@ -15,5 +15,31 @@
       Tìm hiểu GitHub và Cloudflare Pages, tạo website tĩnh và triển khai lên
       Internet.
     </p>
+    <h2>Nội dung thực hành: Nghiên cứu OWASP Top 10</h2>
+    <div
+      style="
+        background-color: #f4f4f4;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 20px;
+      "
+    >
+      <h3>1. Lỗ hổng phát hiện được (Từ Yêu cầu 2)</h3>
+      <p>
+        <strong>Tên lỗi:</strong> SQL Injection (Thuộc nhóm A03:2021-Injection)
+      </p>
+      <p>
+        <strong>Mô tả hành vi:</strong> Hacker nhập chuỗi ký tự
+        <code>' or 1=1 --</code> vào form đăng nhập để làm thay đổi cấu trúc câu
+        lệnh truy vấn, từ đó bypass qua vòng xác thực mà không cần mật khẩu.
+      </p>
+
+      <h3>2. Đánh giá mức độ ảnh hưởng (Từ Yêu cầu 1)</h3>
+      <p>
+        Lỗ hổng này có mức độ ảnh hưởng nghiêm trọng (Critical), có thể dẫn đến
+        việc rò rỉ toàn bộ cơ sở dữ liệu, lộ thông tin cá nhân của người dùng và
+        làm mất uy tín toàn bộ hệ thống doanh nghiệp.
+      </p>
+    </div>
   </body>
 </html>
