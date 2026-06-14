@@ -3,3 +3,7 @@
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline';
+  /admin.html
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Cache-Control: no-store, no-cache, must-revalidate
